@@ -3,7 +3,7 @@
 
 ### Criação de uma rede em comum entre os containers 
 
-A rede foi criada para o acesso entre os containers via Hostname
+A rede foi criada para o acesso entre os containers via **Hostname**
 ```shell
 docker network create --driver bridge desafio_02
 ```
