@@ -11,7 +11,7 @@ docker network create --driver bridge desafio_02
 
 ### Execução do container Redis
 
-Executa o container Redis com o **Nome** e **Hostname ** igual a *redis-desafio02*. 
+Executa o container Redis com o **Nome** e **Hostname** igual a *redis-desafio02*. 
 ```shell
 docker container run -d --net desafio_02 --name redis-desafio02 --hostname redis-desafio02 redis:7.4-alpine3.20
 ```
